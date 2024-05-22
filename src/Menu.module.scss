@@ -1,0 +1,19 @@
+.Menu {
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin-left: 0;
+
+    &-item {
+        list-style-type: none;
+    }
+
+    &-link {
+        color: green;
+        text-decoration: none;
+
+        &[class~=active] {
+            text-decoration: underline;
+        }
+    }
+}

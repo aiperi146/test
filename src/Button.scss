@@ -1,0 +1,9 @@
+
+$size: 20px;
+
+.Button {
+    background-color: blue;
+    font-size: $size;
+    padding: ($size / 2) $size;
+    border-radius: 4px;
+}
